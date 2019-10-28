@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="toolbar">#C2BABD</color>
+    <color name="caracteristicas">#928F90</color>
+    <color name="letraNegra">#090808</color>
+    <color name="botonVerde">#4CAF50</color>
+    <color name="letraBlanca">#F9FAF9</color>
+    <color name="busquedaEventos">#E6AFE6</color>
+
+
+
+</resources>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">HoySeSaleApp</string>
+    <string name="logo">logo</string>
+    <string name="info">Perfil</string>
+    <string name="emailInfo">Direccion de correo electronico de la cuenta</string>
+    <string name="email">E-mail</string>
+    <string name="botonCambiarMail">Cambiar</string>
+    <string name="botonSubirFoto">subirFoto</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="telefono">Telefono</string>
+    <string name="empresa">Empresa</string>
+    <string name="sitioWeb">Sitio Web</string>
+    <string name="cargo">Cargo</string>
+    <string name="foto">Foto</string>
+    <string name="guardarBoton">Guardar</string>
+    <string name="busquedaPersonas">personas</string>
+    <string name="busquedaEventos">Eventos</string>
+    <string name="budquedaOtros">Otros</string>
+    <string name="budquedaReciente">Busquedas recientes</string>
+    <string name="nombreEvento">Nombre Evento</string>
+    <string name="fechaEvento">Fecha</string>
+    <string name="resultadoBusqueda">Resultado Busqueda</string>
+    <string name="ResultadoEvento">Resultado Evento</string>
+
+
+</resources>
