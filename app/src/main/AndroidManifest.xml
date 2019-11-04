@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".itemBusquedaList"></activity>
+        <activity android:name=".MisEventosCreados"></activity>
+        <activity android:name=".MisEventoSuscriptos"/>
+        <activity android:name=".DetalleEvento" />
+        <activity android:name=".itemBusquedaList" />
         <activity android:name=".resultadoBusquedaEvento" />
         <activity android:name=".busquedaEventos" />
         <activity android:name=".MainActivity" />

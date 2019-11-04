@@ -6,4 +6,75 @@
     android:layout_height="match_parent"
     tools:context=".MisEventoSuscriptos">
 
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarHoySale"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/caracteristicas"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toStartOf="@+id/logo"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="45dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="31dp"
+        android:contentDescription="@string/logo"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbarHoySale"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/toolbarHoySale"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/eventoBusqueda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/busquedaEventos"
+        android:textColor="@color/letraNegra"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.005"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbarHoySale" />
+
+    <LinearLayout
+        android:layout_width="411dp"
+        android:layout_height="568dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbarHoySale">
+
+        <SearchView
+
+            android:id="@+id/busquedaEvento"
+            android:layout_width="237dp"
+            android:layout_height="29dp"
+            />
+
+        <Spinner
+            android:id="@+id/filtroCategorias"
+            android:layout_width="237dp"
+            android:layout_height="34dp"
+            android:spinnerMode="dialog"
+            android:prompt="@string/filtroBusqueda"/>
+
+        <ListView
+            android:id="@+id/listaEventosSuscriptos"
+            android:layout_width="match_parent"
+            android:layout_height="413dp" />
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

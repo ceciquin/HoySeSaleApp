@@ -17,11 +17,21 @@
     <string name="busquedaPersonas">personas</string>
     <string name="busquedaEventos">Eventos</string>
     <string name="budquedaOtros">Otros</string>
-    <string name="budquedaReciente">Busquedas recientes</string>
+    <string name="eventoAgregado">Ultimos eventos agregados</string>
     <string name="nombreEvento">Nombre Evento</string>
     <string name="fechaEvento">Fecha</string>
     <string name="resultadoBusqueda">Resultado Busqueda</string>
     <string name="ResultadoEvento">Resultado Evento</string>
+    <string name="detalleEventoFoto">detalle Evento</string>
+    <string name="datosEvento">Datos del Evento</string>
+    <string name="botonAnotarme">Anotarme</string>
+    <string name="ubicacion">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at lobortis mi. Cras tincidunt nulla quis sem tincidunt pretium. Etiam nisi dui, bibendum quis nulla vel, eleifend sollicitudin turpis. Duis massa magna, venenatis efficitur lobortis dignissim, fermentum sed elit. Nulla facilisi. Pellentesque mauris enim, mollis vel sollicitudin sit amet, pharetra ut diam. Ut ut velit eget est viverra blandit ut id dolor.</string>
+    <string name="descripcion">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at lobortis mi. Cras tincidunt nulla quis sem tincidunt pretium. Etiam nisi dui, bibendum quis nulla vel, eleifend sollicitudin turpis. Duis massa magna, venenatis efficitur lobortis dignissim, fermentum sed elit. Nulla facilisi. Pellentesque mauris enim, mollis vel sollicitudin sit amet, pharetra ut diam. Ut ut velit eget est viverra blandit ut id dolor.</string>
+    <string name="botonVolver">Volver a la lista</string>
+    <string name="buscarEvento">Buscar Evento</string>
+    <string name="filtroBusqueda">Filtrar por</string>
+    <string name="eventoCreado">Mis Eventos</string>
+    <string name="crearEvento">Crear Evento</string>
 
 
 </resources>
